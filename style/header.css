@@ -1,0 +1,42 @@
+.header__left{
+	width: 50%;
+	float: left;
+}
+.user{
+	margin-top: 10px;
+}
+.user-photo{
+	width: 60px;
+	height:60px;
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid #c5c5c5;
+	border-radius: 50%;
+	overflow: hidden;
+	
+}
+.photo{
+	display: block;
+	max-width: 100%;	
+}
+.user-name{
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 250px;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.header__right{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.header-contacts{
+	margin-top: 30px;
+}
+.contacts-show{
+	font-size: 18px;
+	text-decoration: none;
+	color: #33c1e3;
+}

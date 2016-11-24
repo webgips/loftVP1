@@ -1,0 +1,51 @@
+.about__left{
+	float: left;
+
+}
+/*.about__title{
+	font-family: 'fira_sansmedium';
+	font-size: 35px;
+	line-height: 38px; 
+	color: #414141;   
+    font-weight: normal;
+}*/
+.about-photo{
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	overflow: hidden;
+}
+.big-photo{
+	display: block;
+	width: 100%;	
+}
+.about-text{
+	overflow: auto;
+	width: 385px;
+	font-size: 18px;
+	height: 333px;
+	margin-bottom: 60px;
+	color: #646464;
+}
+
+.about__right{
+	float: right;
+	width: 57%;
+}
+
+.download-resume{
+	display: block;
+	float: right;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'fira_sansbold';
+	color: #e85f61;
+	padding: 8px 20px;
+	border: 2px solid #e85f61;
+	border-radius: 40px;
+}
+.download-resume:active{
+	background-color: #e85f61;
+	color: white;
+}
