@@ -1,1 +1,83 @@
- 
+ .career__right{
+	float: right;
+ }
+
+ .career__left{
+ 	float: left;
+ }
+ .career__item:hover *{	
+	color:#fff;
+}
+.career__item:hover .career__block{
+	background-color: #33c1e3;
+}
+
+.career__item:hover .career__year {
+    color: #33c1e3;    
+    font-family: "fira_sansbold";
+}
+.career__item:hover .career__year:after{
+	border-color: #94e0f2;
+}
+
+ .career__pic{
+  border-radius: 9px; 
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+}
+
+.career-img{
+	height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.career__block{
+	width: 380px;  	
+  	margin-bottom: 20px;
+  	padding: 15px;
+  	box-sizing: border-box;
+  	display: inline-block;
+  	position: relative;
+  	background-color:#fff;
+  	border-radius: 10px;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+.career__block p{
+	margin: 0;
+}
+
+.career__title{
+	font-size: 21px;
+	color: #5a5a5a;
+}
+.career__discription,
+.career__date{
+	font-size: 18px;
+	font-family: "fira_sanslight";
+	color:#727272;
+}
+
+.career__year{
+	display: block;
+	position: absolute;
+	right: 100%;
+	top: 50%;
+	margin-right: 34px;
+	font-family: "fira_sanslight";
+	font-size: 14px;
+	color:#727272;
+}
+
+.career__year:after{
+	content: "";
+  	border: 5px solid #f6f6f6;
+  	border-radius: 50%;  	
+  	margin-left: 5px;
+  	background-color:#33c1e3;
+  	position: absolute;
+  	width: 10px;
+  	height: 10px;  
+}
+

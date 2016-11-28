@@ -34,9 +34,50 @@
 }
 .header-contacts{
 	margin-top: 30px;
+	position: relative;
+
 }
 .contacts-show{
 	font-size: 18px;
 	text-decoration: none;
 	color: #33c1e3;
+	padding-bottom: 5px;
+	background: url(../decor/dotted.png)  bottom repeat-x;
+}
+.header-contacts:hover .contacts-show{
+	color: #e85f61;
+	background: url(../decor/dotted_hover.png)  bottom repeat-x;
+}
+.header-contacts:hover .contacts__block{
+	display: block;
+}
+
+.contacts__block{
+	display: none;
+	position: absolute;
+	right: -35px;
+	top: 40px;
+	padding: 15px;
+	border:1px solid #dedede;
+	background: #fff;
+	border-radius: 10px;
+	z-index: 3;
+}
+.contacts__item{
+	margin-bottom: 10px;
+}
+.contacts__item:last-child{
+	margin-bottom: 0;
+}
+.contacts__link{
+	display: block;
+	text-decoration: none;
+	color: #414141;
+	font-family: "fira_sanslight";
+	font-size: 18px;
+	text-align: left;	
+}
+.contacts__link-icon{
+	margin-right: 15px;
+	color:#33c1e3;	
 }
