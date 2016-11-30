@@ -27,13 +27,13 @@
     margin-left: 15px;
 }
 
-.header__right{
-	width: 50%;
+.header__right{	
 	float: right;
 	text-align: right;
 }
 .header-contacts{
 	margin-top: 30px;
+
 	position: relative;
 
 }
@@ -55,14 +55,23 @@
 .contacts__block{
 	display: none;
 	position: absolute;
-	right: -35px;
-	top: 40px;
+	right: -55px;
+    	top: 32px;
 	padding: 15px;
 	border:1px solid #dedede;
 	background: #fff;
 	border-radius: 10px;
 	z-index: 3;
 }
+.contacts__block:before{
+	content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 30px;
+    top: -28px;
+}
+
 .contacts__item{
 	margin-bottom: 10px;
 }
@@ -76,6 +85,9 @@
 	font-family: "fira_sanslight";
 	font-size: 18px;
 	text-align: left;	
+}
+i.contacts__link-icon {
+display:inline;
 }
 .contacts__link-icon{
 	margin-right: 15px;
