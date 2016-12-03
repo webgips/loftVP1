@@ -1,0 +1,21 @@
+//colors
+$gray: #727272;
+$black: #414141;
+$white: #f6f6f6;
+$blue: #33c1e3;
+$red: #e85f61;
+
+//layout
+@import "style/about.scss";
+@import "style/all.scss";
+@import "style/career.scss";
+@import "style/footer.scss";
+@import "style/header.scss";
+@import "style/normalize.scss";
+@import "style/portfolio.scss";
+@import "style/sidebar.scss";
+
+
+//fonts
+@import "fonts/FiraSans.css";
+@import "fonts/font-awesome.scss";

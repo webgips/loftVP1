@@ -8,7 +8,7 @@
 .nav-item{
 	font-size: 18px;
 	text-decoration: none;
-	color:#414141;
+	color:$black;
 	
 }
 .nav__link{
@@ -18,16 +18,17 @@
 	padding: 8px 0px;
     padding-right: 23px;
 	border-right: 6px solid transparent;
+	&:hover{
+		color: $blue;
+	}
+	&:active{
+		color: $blue;
+		border-color: $blue;
+		font-family: 'fira_sansbold';	
+	}
 }
-.nav__link:hover{
-	color: #33c1e3;
-}
-.nav__link:active{
-	color: #33c1e3;
-	border-color: #33c1e3;
-	font-family: 'fira_sansbold';
-}
+
 .nav-item-active .nav__link {
-	color: #33c1e3;
-    border-color: #33c1e3;
+	color: $blue;
+    border-color: $blue;
 }

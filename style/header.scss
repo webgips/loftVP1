@@ -23,8 +23,8 @@
 	display: inline-block;
 	vertical-align: middle;
 	max-width: 250px;
-    font-size: 18px;
-    margin-left: 15px;
+   	font-size: 18px;
+    	margin-left: 15px;
 }
 
 .header__right{	
@@ -40,13 +40,13 @@
 .contacts-show{
 	font-size: 18px;
 	text-decoration: none;
-	color: #33c1e3;
+	color: $blue;
 	padding-bottom: 5px;
-	background: url(../decor/dotted.png)  bottom repeat-x;
+	background: url(decor/dotted.png)  bottom repeat-x;
 }
 .header-contacts:hover .contacts-show{
 	color: #e85f61;
-	background: url(../decor/dotted_hover.png)  bottom repeat-x;
+	background: url(decor/dotted_hover.png)  bottom repeat-x;
 }
 .header-contacts:hover .contacts__block{
 	display: block;
@@ -56,40 +56,38 @@
 	display: none;
 	position: absolute;
 	right: -55px;
-    	top: 32px;
+    top: 32px;
 	padding: 15px;
 	border:1px solid #dedede;
 	background: #fff;
 	border-radius: 10px;
 	z-index: 3;
+	&:before{
+		content: "";
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    height: 30px;
+	    top: -28px;
+	}
 }
-.contacts__block:before{
-	content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    height: 30px;
-    top: -28px;
-}
-
 .contacts__item{
 	margin-bottom: 10px;
-}
-.contacts__item:last-child{
-	margin-bottom: 0;
+	&:last-child{
+		margin-bottom: 0;
+	}
 }
 .contacts__link{
 	display: block;
+   	white-space: nowrap;
 	text-decoration: none;
-	color: #414141;
+	color: $black;
 	font-family: "fira_sanslight";
 	font-size: 18px;
 	text-align: left;	
 }
-i.contacts__link-icon {
-display:inline;
-}
+
 .contacts__link-icon{
 	margin-right: 15px;
-	color:#33c1e3;	
+	color:$blue;	
 }

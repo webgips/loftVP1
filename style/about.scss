@@ -42,10 +42,11 @@
 	font-family: 'fira_sansbold';
 	color: #e85f61;
 	padding: 8px 20px;
-	border: 2px solid #e85f61;
+	border: 2px solid $red;
 	border-radius: 40px;
+	&:active{
+		background-color: $red;
+		color: white;
+	}
 }
-.download-resume:active{
-	background-color: #e85f61;
-	color: white;
-}
+

@@ -29,26 +29,26 @@
 	display: block;
 }
 .socials-link-fb{	
-	background: url(../icons/social_icons.png);
+	background: url(icons/social_icons.png);
 	background-position: -10px -10px;
-}
-.socials-link-fb:hover{
-	background: url(../icons/social_icons.png);
-	background-position: -60px -10px;
+	&:hover{
+		background: url(icons/social_icons.png);
+		background-position: -60px -10px;
+	}
 }
 .socials-link-twi{
-	background: url(../icons/social_icons.png);
-	 background-position: -10px -60px;
-}
-.socials-link-twi:hover{
-	background: url(../icons/social_icons.png);
-	background-position: -60px -60px;
+	background: url(icons/social_icons.png);
+	background-position: -10px -60px;
+	&:hover{
+		background: url(icons/social_icons.png);
+		background-position: -60px -60px;
+	}
 }
 .socials-link-vk{
-	background: url(../icons/social_icons.png);
+	background: url(icons/social_icons.png);
 	background-position: -110px -10px;
-}
-.socials-link-vk:hover{
-	background: url(../icons/social_icons.png);
-	background-position: -110px -60px;
+	&:hover{
+		background: url(icons/social_icons.png);
+		background-position: -110px -60px;
+	}
 }
