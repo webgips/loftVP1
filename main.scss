@@ -6,6 +6,7 @@ $blue: #33c1e3;
 $red: #e85f61;
 
 //layout
+@import "style/auth.scss";
 @import "style/about.scss";
 @import "style/all.scss";
 @import "style/career.scss";
@@ -15,7 +16,12 @@ $red: #e85f61;
 @import "style/portfolio.scss";
 @import "style/sidebar.scss";
 
+//responsive
+@import "style/responsive/desktop.scss";
+@import "style/responsive/laptop.scss";
+@import "style/responsive/tablet.scss";
+@import "style/responsive/mobile.scss";
 
 //fonts
 @import "fonts/FiraSans.css";
-@import "fonts/font-awesome.scss";
+@import "fonts/icomoon.scss";

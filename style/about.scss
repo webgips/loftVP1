@@ -21,8 +21,7 @@
 	width: 100%;	
 }
 .about-text{
-	overflow: auto;
-	width: 385px;
+	overflow: auto;	
 	font-size: 18px;
 	height: 333px;
 	margin-bottom: 60px;
@@ -34,19 +33,30 @@
 	width: 57%;
 }
 
-.download-resume{
-	display: block;
-	float: right;
+.download-btn{	
 	text-decoration: none;
 	font-size: 14px;
+	display: inline-block;
 	font-family: 'fira_sansbold';
-	color: #e85f61;
-	padding: 8px 20px;
+	color: $red;
+	padding: 10px 12px;
 	border: 2px solid $red;
 	border-radius: 40px;
-	&:active{
+	&:hover{
 		background-color: $red;
 		color: white;
 	}
 }
+.about__download{
+	text-align: right;
+}
 
+.btn-white{
+	 @extend .download-btn;
+	 color:white;
+	 border: 2px solid white;
+	 &:hover{
+	 	background-color: white;
+		color: $blue;
+	 }
+}

@@ -1,0 +1,28 @@
+@media screen and (max-width: 992px) {
+	.container {
+		width: 750px;
+		padding: 0px 20px;
+		box-sizing: border-box;
+	}
+	.sidebar {
+		float: none;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.nav-list{
+		text-align: left;
+	}
+	.nav-item{
+		display: inline-block;
+	}
+	.nav__link{
+		border-right: none;
+	}
+
+	.main__content{
+		width: 100%;
+		float: none;
+	}
+
+}

@@ -1,0 +1,47 @@
+@media screen and (max-width: 480px) {
+.container {
+	width: 95%;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header__left{
+	width: 80%;	
+}
+.user-name{
+	max-width: 150px; 
+	width: 60%;	
+}
+.sidebar{	
+    white-space: nowrap;
+}
+.about-text {
+	height: auto;
+	margin-bottom: 20px;
+}
+.nav-list{
+	text-align: center;
+}
+.nav__link{
+	padding-right: 10px;
+	font-size: 16px;
+	& i{
+	display: none;
+	}
+} 
+.portfolio__list{
+	text-align: center;
+}
+.portfolio__item{	
+	margin:0 0 20px;
+	width: 95%;
+}
+.portfolio__pic{
+	width: auto;
+}
+.portfolio__discription{
+	text-align: left;
+}
+.footer{
+	height: 90px;
+}
+}
