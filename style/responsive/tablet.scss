@@ -22,7 +22,11 @@
 	
 .contacts__block{
 	right: 0px;
-   	top: 40px;
+    top: 50px;
+    &:after{
+		top: -11px;
+    	right: 12px;
+    }
 }
 
 .nav__link{

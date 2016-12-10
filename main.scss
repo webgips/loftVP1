@@ -7,14 +7,23 @@ $red: #e85f61;
 
 //layout
 @import "style/auth.scss";
-@import "style/about.scss";
+@import "style/normalize.scss";
+@import "style/animate.scss";
 @import "style/all.scss";
+
+//fonts
+@import "fonts/FiraSans.css";
+@import "fonts/icomoon.scss";
+
+//sections
 @import "style/career.scss";
 @import "style/footer.scss";
 @import "style/header.scss";
-@import "style/normalize.scss";
 @import "style/portfolio.scss";
 @import "style/sidebar.scss";
+@import "style/about.scss";
+
+
 
 //responsive
 @import "style/responsive/desktop.scss";
@@ -22,6 +31,3 @@ $red: #e85f61;
 @import "style/responsive/tablet.scss";
 @import "style/responsive/mobile.scss";
 
-//fonts
-@import "fonts/FiraSans.css";
-@import "fonts/icomoon.scss";

@@ -6,28 +6,27 @@
     left: 0;
     height: 100%;
     width: 100%;	
-	text-align: center;
+	text-align: center;    
 	background: url(bg/geometry2.png);
+    &:before{
+       height: 100%;
+       display: inline-block;
+       vertical-align: middle;
+       content: ""; 
+    }
 }
 .auth{
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	height: 300px;
-	margin: auto;
 	display: inline-block;
     vertical-align: middle;
-    width: 300px;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 1px 0 3px rgba(0,0,0,.2);    
 }
 .auth__top{
 	border-radius: 7px 7px 0 0;
     background: #fff;
     padding: 80px 60px 20px 60px;
     font-size: 21px;
-    position: relative;
-    margin-top: 70px;
+    position: relative;      
 }
 .auth__photo{
 	background-image: url(content/photo1.jpg);
@@ -49,7 +48,7 @@
 
 .auth__bottom{
 	background: $blue;
-    padding: 20px 0;
+    padding: 20px 0;    
     border-radius: 0 0 7px 7px;
 }
 

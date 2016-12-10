@@ -55,8 +55,8 @@
 .contacts__block{
 	display: none;
 	position: absolute;
-	right: -55px;
-    top: 32px;
+	right: -40%;
+    top: 43px;
 	padding: 15px;
 	border:1px solid #dedede;
 	background: #fff;
@@ -69,6 +69,20 @@
 	    right: 0;
 	    height: 30px;
 	    top: -28px;
+	}
+	&:after{
+		content: "";
+		width: 20px;
+		height: 20px;
+		background-color: #fff;
+		border-left: 1px solid #dedede;
+		border-top: 1px solid #dedede;
+		transform: rotate(45deg); /* Поворачиваем на 45º */
+		position: absolute;
+		top: -11px;
+    	right: 45%;
+
+    	
 	}
 }
 .contacts__item{
